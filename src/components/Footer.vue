@@ -1,0 +1,31 @@
+<template>
+    <section>
+        <div class="container mx-auto text-white grid justify-center items-center gap-6 md:flex md:gap-10 border-b-2 border-white pb-5">
+            <div class="flex justify-center items-center gap-1">
+                <i class='bx bx-phone-call'></i>
+                <p>+998981003631</p>
+            </div>         
+            <div class="flex justify-center items-center gap-1">
+                <a href="cosinus.uz" class="flex justify-center items-center gap-1">
+                    <i class='bx bx-globe'></i>
+                    <p>cosinus.uz</p>
+                </a>
+            </div> 
+            <div class="flex justify-center items-center gap-4 text-[16px] md:text-[24px]">
+                <a href="https://t.me/cosinussupport_bot"><i class="bx bxl-telegram text-[#3C4BDC]"></i></a>
+                <a href="https://www.instagram.com/cosinus_uz/?igshid=MzRlODBiNWFlZA%3D%3D"><i class="bx bxl-instagram text-[#3C4BDC]"></i></a>
+                <a href="https://www.facebook.com/people/Cosinus-Uz/pfbid02R6om2Nyu5Ve9yD33mdZD6e4XYZdoTWogMoDh1D7jBHj7LxFuRSZw2Ejw27SNxth9l/?mibextid=LQQJ4d"><i class="bx bxl-facebook text-[#3C4BDC]"></i></a>
+                <a href="https://www.youtube.com/@cosinus_uz"><i class="bx bxl-youtube text-[#3C4BDC]"></i></a>                        
+            </div>
+        </div>
+        <h3 class="text-white my-5 text-center">© {{new Date().getFullYear()}} Cosinus IT. Barcha huquqlar himoyalangan</h3>
+    </section>
+</template>
+
+<script setup>
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>
