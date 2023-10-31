@@ -45,8 +45,8 @@
                     <img src="../assets/images/Vector.png" alt="cosinus_logo" class="w-[65px] h-[80px]">
                 </div>
                 <div class="w-1/3 flex justify-end items-center ">
-                    <div class="h-[42px] bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
-                        <select id="countries" class="bg-[#0E0E37] text-white text-sm rounded-lg">
+                    <div class="h-[48px] bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
+                        <select id="countries" class="bg-[#16163A] text-white rounded-lg">
                             <option value="UZB">Uzb</option>
                             <option value="RUS">Rus</option>
                             <option value="ENG">Eng</option>
@@ -67,14 +67,14 @@
                     </div>
                 </div>
                 <div class=" flex justify-end items-center gap-10">
-                    <div class="h-[42px] bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
-                        <select id="countries" class="bg-[#0E0E37] text-white text-sm rounded-lg">
+                    <div class="h-[48px] grid items-center bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
+                        <select id="countries" class="bg-[#16163A] text-white rounded-lg">
                             <option value="UZB">Uzb</option>
                             <option value="RUS">Rus</option>
                             <option value="ENG">Eng</option>
                           </select>
                     </div>
-                      <button class="language w-[130px] h-[42px] bg-[#343FA7] text-white hover:bg-[#1913EA] px-2 py-1 rounded-lg">Bog'lanish</button>
+                      <button class="language w-[130px] h-[48px] bg-[#343FA7] text-white hover:bg-[#1913EA] px-2 py-1 rounded-lg">Bog'lanish</button>
                 </div>
             </div>
         </div>

@@ -93,7 +93,6 @@ h1 {
   width: 250px;
   margin: 1em;
   padding: 0.5em;
-  border-radius: 10px;
   background-color: #16163A;
   
 }
