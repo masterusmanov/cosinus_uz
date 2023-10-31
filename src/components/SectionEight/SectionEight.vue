@@ -27,22 +27,22 @@
                 </div>
                 <div class="lg:w-1/2 mt-[32px] md:mt-[24px]">
                     <div class="flex items-center gap-4 text-[16px] md:text-[24px]">
-                        <i class="bx bx-map text-[#3C4BDC] "></i>
+                        <i class="bx bxs-map text-[#3C4BDC] text-[32px]"></i>
                         <p class="text-white">Toshkent, Yashnabod tumani, Mahtumquli ko'chasi 1A</p>
                     </div>
                     <div class="flex items-center gap-4 text-[16px] md:text-[24px] mt-[20px]">
-                        <i class="bx bx-phone text-[#3C4BDC]"></i>
+                        <i class="bx bxs-phone text-[#3C4BDC] text-[32px]"></i>
                         <p class="text-white">+998981003631</p>
                     </div>
                     <div class="flex items-center gap-4 text-[16px] md:text-[24px] mt-[20px]">
-                        <i class="bx bx-envelope text-[#3C4BDC]"></i>
+                        <i class="bx bxs-envelope text-[#3C4BDC] text-[32px]"></i>
                         <p class="text-white">cosinus@gmail.com</p>
                     </div>
                     <div class="flex items-center gap-6 text-[16px] md:text-[24px] mt-[20px]">
-                        <a href="https://t.me/cosinussupport_bot"><i class="bx bxl-telegram text-[#3C4BDC]"></i></a>
-                        <a href="https://www.instagram.com/cosinus_uz/?igshid=MzRlODBiNWFlZA%3D%3D"><i class="bx bxl-instagram text-[#3C4BDC]"></i></a>
-                        <a href="https://www.facebook.com/people/Cosinus-Uz/pfbid02R6om2Nyu5Ve9yD33mdZD6e4XYZdoTWogMoDh1D7jBHj7LxFuRSZw2Ejw27SNxth9l/?mibextid=LQQJ4d"><i class="bx bxl-facebook text-[#3C4BDC]"></i></a>
-                        <a href="https://www.youtube.com/@cosinus_uz"><i class="bx bxl-youtube text-[#3C4BDC]"></i></a>                        
+                        <a href="https://t.me/cosinussupport_bot"><i class="bx bxl-telegram text-[#3C4BDC] text-[38px]"></i></a>
+                        <a href="https://www.instagram.com/cosinus_uz/?igshid=MzRlODBiNWFlZA%3D%3D"><i class="bx bxl-instagram-alt text-[#3C4BDC] text-[38px]"></i></a>
+                        <a href="https://www.facebook.com/people/Cosinus-Uz/pfbid02R6om2Nyu5Ve9yD33mdZD6e4XYZdoTWogMoDh1D7jBHj7LxFuRSZw2Ejw27SNxth9l/?mibextid=LQQJ4d"><i class="bx bxl-facebook text-[#3C4BDC] text-[32px]"></i></a>
+                        <a href="https://www.youtube.com/@cosinus_uz"><i class="bx bxl-youtube text-[#3C4BDC] text-[38px]"></i></a>                        
                     </div>
                 </div>
             </div>

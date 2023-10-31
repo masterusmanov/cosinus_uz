@@ -95,7 +95,7 @@ h1 {
   padding: 0.5em;
   border-radius: 10px;
   background-color: #16163A;
-  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  
 }
 
 @media only screen and (max-width: 768px) {
