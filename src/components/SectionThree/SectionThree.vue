@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-[#282067]">
+    <section class="bg-[#060647]">
         <div class="container mx-auto grid items-center pb-10">
             <div class="text-white  m-[20px] p-2">
                 <h1 class="text-[24px] md:text-[40px] lg:text-[56px] font-[700] font-Roboto mb-[8px] md:mb-[16px] lg:mb-[24px]">Bizning xizmatlarimiz</h1>

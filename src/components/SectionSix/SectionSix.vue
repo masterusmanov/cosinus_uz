@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-[#2A226B] py-[10px]">
+    <section class="bg-[#060647] py-[10px]">
         <div class="container mx-auto ">
             <div class="text-white m-[20px] p-2">
                 <h1 class="text-[24px] md:text-[40px] lg:text-[56px] font-[700] font-Roboto">Biz qanday ishlaymiz</h1>
