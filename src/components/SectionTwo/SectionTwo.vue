@@ -7,8 +7,8 @@
                 <h1 class="text-[56px] lg:text-[80px] text-[#3F4CCF] font-[700] mb-[4px]">15+</h1>
                 <p class="text-[18px] lg:text-[28px] font-[400]">Muvaffaqiyatli topshirgan ishlarimiz</p>
             </div>
-            <div class="lg:w-1/2">
-                <ImageCarusel/>
+            <div class="md:w-[85%] lg:w-[45%] 2xl:w-[43%] mx-auto">
+                <ImageCarusel/> 
             </div>
         </div>
     </section>
