@@ -46,7 +46,7 @@
                 </div>
                 <div class="w-1/3 flex justify-end items-center ">
                     <div class="h-[48px] bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
-                        <select id="countries" class="bg-[#16163A] text-white rounded-lg">
+                        <select id="countries" class="h-[44px] bg-[#16163A] text-white rounded-lg">
                             <option value="UZB">Uzb</option>
                             <option value="RUS">Rus</option>
                             <option value="ENG">Eng</option>
@@ -67,8 +67,8 @@
                     </div>
                 </div>
                 <div class=" flex justify-end items-center gap-10">
-                    <div class="h-[48px] grid items-center bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
-                        <select id="countries" class="bg-[#16163A] text-white rounded-lg">
+                    <div class="h-[48px] flex items-center bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
+                        <select id="countries" class="h-[47px] bg-[#16163A] text-white rounded-lg">
                             <option value="UZB">Uzb</option>
                             <option value="RUS">Rus</option>
                             <option value="ENG">Eng</option>
