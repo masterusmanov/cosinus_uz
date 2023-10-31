@@ -11,10 +11,11 @@
       modifier: 1,
       slideShadows: true,
     }"
-    :pagination="true"
+    :pagination="false"
     :modules="modules"
     :options="swiperOptions"
     class="mySwiper"
+    :autoplay="{ delay: 3000 }"
   >
     <swiper-slide>
       <img src="../assets/images/employee_png/Shoxrux aka.png"/>
@@ -95,7 +96,7 @@
   import '../assets/style.css';
 
   // import required modules
-  import { EffectCoverflow, Pagination } from 'swiper/modules';
+  import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
 
   export default {
     components: {
@@ -104,7 +105,7 @@
     },
     setup() {
       return {
-        modules: [EffectCoverflow, Pagination],
+        modules: [EffectCoverflow, Pagination, Autoplay],
       };
     },
   };
