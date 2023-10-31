@@ -18,7 +18,7 @@
                 <a href="https://www.youtube.com/@cosinus_uz"><i class="bx bxl-youtube text-[#3C4BDC]"></i></a>                        
             </div>
         </div>
-        <div class="flex justify-center items-center lg:justify-between mx-[20px] gap-[250px] md:py-3">
+        <div class="flex justify-center items-center mx-[20px] gap-[250px] lg:gap-[800px] 2xl:gap-[1000px] md:py-3">
             <img src="../assets/images/Cosinus.svg" alt="companyLogo" class="hidden md:block w-[80px]">
             <h3 class="text-white my-3 text-[12px] md:text-[16px] text-center">© {{new Date().getFullYear()}} Cosinus IT. Barcha huquqlar himoyalangan</h3>
         </div>
