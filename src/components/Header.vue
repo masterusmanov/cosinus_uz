@@ -1,5 +1,5 @@
 <template>
-    <header class="headers">
+    <header class="headers border-b-2 border-[#1F1BC6] shadow-sm shadow-[#1F1BC6] lg:border-none lg:shadow-none">
         <div class="container mx-auto">
             <div class="flex justify-between items-center p-5 gpa-6 md:hidden">
                 <div>
