@@ -68,13 +68,6 @@
       </div>
     </swiper-slide>
     <swiper-slide>
-      <img src="../assets/images/employee_png/Tolib.png" />
-      <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
-        <h3 class="text-[18px] font-[700]">Tolib</h3>
-        <p class="text-[14px]">Sales manager</p>
-      </div>
-    </swiper-slide>
-    <swiper-slide>
       <img src="../assets/images/employee_png/Laziz.png"/>
       <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
         <h3 class="text-[18px] font-[700]">Laziz Xojiboyev</h3>
