@@ -92,9 +92,7 @@ h1 {
   position: relative;
   width: 250px;
   margin: 1em;
-  padding: 0.5em;
-  background-color: #16163A;
-  
+  padding: 0.5em;  
 }
 
 @media only screen and (max-width: 768px) {
