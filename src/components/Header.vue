@@ -1,5 +1,5 @@
 <template>
-    <header class="headers border-b-2 border-[#1F1BC6] shadow-sm shadow-[#1F1BC6] lg:border-none lg:shadow-none">
+    <header class="headers sticky top-0 z-50 bg-[#04042F] border-b-2 border-[#1F1BC6] shadow-sm shadow-[#1F1BC6] ">
         <div class="container mx-auto">
             <div class="flex justify-between items-center p-5 gpa-6 md:hidden">
                 <div>
@@ -10,13 +10,16 @@
                     <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                         <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.one')}}</a>
+                            <a href="home" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.one')}}</a>
                           </li>
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Portfolio</a>
+                            <a href="#portfolio" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.two')}}</a>
                           </li>
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Cosinus academy</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.three')}}</a>
+                          </li>
+                          <li>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Telegram bot</a>
                           </li>
                         </ul>
                     </div>
@@ -30,13 +33,16 @@
                     <div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                         <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
                         <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.one')}}</a>
+                            <a href="#home" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.one')}}</a>
                         </li>
                         <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Portfolio</a>
+                            <a href="#portfolio" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.two')}}</a>
                         </li>
                         <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Cosinus academy</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.three')}}</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Telegram bot</a>
                         </li>
                         </ul>
                     </div>
@@ -58,23 +64,25 @@
                 <div class="flex justify-center items-center gap-6">
                     <img src="../assets/images/Cosinus.svg" alt="" class="w-[94px] h-[48px]">
                     <div class="text-white flex justify-center items-center gap-10 ml-[64px]">
-                        <a href="#">{{$t('translation.navbar.list.one')}}</a>
-                        <a href="#">Portfolio</a>
+                        <a href="#home">{{$t('translation.navbar.list.one')}}</a>
+                        <a href="#portfolio">{{$t('translation.navbar.list.two')}}</a>
                         <div class="flex items-center">
-                            <a href="#">Cosinus academy</a>
-                            <p class="p-1 bg-[#5A14B1] text-[10px] rounded-lg mb-5">yangi</p>
+                            <a href="#">{{$t('translation.navbar.list.three')}}</a>
+                            <p class="p-1 bg-[#5A14B1] text-[10px] rounded-lg mb-5">{{$t('translation.navbar.list.new')}}</p>
                         </div>
+                        <a href="#">Telegram bot</a>
                     </div>
                 </div>
                 <div class=" flex justify-end items-center gap-10">
                     <div class="h-[48px] flex items-center bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
                         <select id="countries" @change="changeLanguage" class="h-[47px] bg-[#16163A] text-white rounded-lg">
+                            <option class="hidden" value="til" :selected="selectedLanguage === 'uz'">{{$t('translation.language')}}</option>
                             <option value="uz" :selected="selectedLanguage === 'uz'">Uzb</option>
                             <option value="ru" :selected="selectedLanguage === 'ru'">Rus</option>
                             <option value="en" :selected="selectedLanguage === 'en'">Eng</option>
                           </select>
                     </div>
-                      <button class="language w-[130px] h-[48px] bg-[#343FA7] text-white hover:bg-[#1913EA] px-2 py-1 rounded-lg">Bog'lanish</button>
+                      <button class="language w-[130px] h-[48px] bg-[#343FA7] text-white hover:bg-[#1913EA] px-2 py-1 rounded-lg">{{$t('translation.navbar.list.four')}}</button>
                 </div>
             </div>
         </div>
@@ -97,9 +105,10 @@
         const selectedLanguage = event.target.value;
         console.log(selectedLanguage);
         localStorage.setItem("lang", selectedLanguage)
+        window.location.reload()
     }
 </script>
 
 <style lang="scss" scoped>
-
+   
 </style>

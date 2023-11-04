@@ -1,5 +1,6 @@
 {
     "translation": {
+      "language": "Язык",
       "navbar": {
         "list": {
           "one": "Главное",
@@ -123,7 +124,7 @@
         "portfolioTitle": "Портфолио",
         "portfolioWork": "IT-компания cosinus",
         "callTitle": "Связаться : ",
-        "certificate": "© 2023 cosinus IT. Все права защищены"
+        "certificate": "Cosinus IT. Все права защищены"
       }
     }
   }

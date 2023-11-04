@@ -4,8 +4,8 @@
             <div class="md:w-[100%] lg:w-[100%] bg-[#060647] rounded-lg  flex gap-6 p-2">
                 <img src="../assets/images/svgs/1.svg" alt="" class="pl-[15px] pb-[50px] md:pb-[100px] lg:pb-[80px]">
                 <div class=" text-white h-auto md:h-[190px] lg:h-[155px]">
-                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">Tahlil va g'oya</h5>
-                    <p class="font-normal text-[14px] md:text-[18px]">Ushbu bo'limda raqobatchilar tahlil qilinadi, bozor o'rganiladi. Va proektning dastlabki g'oylari paydo bo'ladi</p>
+                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">{{$t('translation.workCategory.one.categoryTitle')}}</h5>
+                    <p class="font-normal text-[14px] md:text-[18px]">{{$t('translation.workCategory.one.description')}}</p>
                 </div>
             </div>
         </div>
@@ -13,8 +13,8 @@
             <div class="md:w-[100%] lg:w-[100%] bg-[#060647] rounded-lg  flex gap-6 p-2">
                 <img src="../assets/images/svgs/2.svg" alt="" class="pl-[15px] pb-[30px] md:pb-[100px] lg:pb-[80px]">
                 <div class=" text-white h-auto md:h-[190px] lg:h-[155px]">
-                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">Auditoriya</h5>
-                    <p class="font-normal text-[14px] md:text-[18px]">Maqsadli auditoriya tanlanadi, talablari o'rganilib, ularning ehtiyoji aniqlanadi</p>
+                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">{{$t('translation.workCategory.two.categoryTitle')}}</h5>
+                    <p class="font-normal text-[14px] md:text-[18px]">{{$t('translation.workCategory.two.description')}}</p>
                 </div>
             </div>
         </div>
@@ -22,8 +22,8 @@
             <div class="md:w-[100%] lg:w-[100%] bg-[#060647] rounded-lg  flex gap-6 p-2">
                 <img src="../assets/images/svgs/3.svg" alt="" class="pl-[15px] pb-[30px] md:pb-[100px] lg:pb-[80px]">
                 <div class=" text-white h-auto md:h-[190px] lg:h-[155px]">
-                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">Strategiya</h5>
-                    <p class="font-normal text-[14px] md:text-[18px]">Qilinishi kerak bo'lgan ishlar aniqlanadi, ularning ketma-ketiligi tuzib olinadi yani reja tuziladi</p>
+                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">{{$t('translation.workCategory.three.categoryTitle')}}</h5>
+                    <p class="font-normal text-[14px] md:text-[18px]">{{$t('translation.workCategory.three.description')}}</p>
                 </div>
             </div>
         </div>
@@ -31,8 +31,8 @@
             <div class="md:w-[100%] lg:w-[100%] bg-[#060647] rounded-lg  flex gap-6 p-2">
                 <img src="../assets/images/svgs/4.svg" alt="" class="pl-[15px] pb-[50px] md:pb-[100px] lg:pb-[80px]">
                 <div class=" text-white h-auto md:h-[190px] lg:h-[155px]">
-                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">Rivojlanish</h5>
-                    <p class="font-normal text-[14px] md:text-[18px]">Reja asosida qilinishi kerak bo'lgan ishlar qilinadi va proekt muvaqqiyatli tugashi uchun sirli fishkalardan foydalniladi</p>
+                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">{{$t('translation.workCategory.four.categoryTitle')}}</h5>
+                    <p class="font-normal text-[14px] md:text-[18px]">{{$t('translation.workCategory.four.description')}}</p>
                 </div>
             </div>
         </div>
@@ -40,8 +40,8 @@
             <div class="md:w-[100%] lg:w-[100%] bg-[#060647] rounded-lg  flex gap-6 p-2">
                 <img src="../assets/images/svgs/5.svg" alt="" class="pl-[15px] pb-[10px] md:pb-[100px] lg:pb-[80px]">
                 <div class=" text-white h-auto md:h-[190px] lg:h-[155px]">
-                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">Hamkorlarimiz</h5>
-                    <p class="font-normal text-[14px] md:text-[18px]">Bizga bildirgan ishonchingiz uchun tashakkur!</p>
+                    <h5 class="font-bold tracking-tight text-[20px] md:text-[32px]">{{$t('translation.workCategory.five.categoryTitle')}}</h5>
+                    <p class="font-normal text-[14px] md:text-[18px]">{{$t('translation.workCategory.five.description')}}</p>
                 </div>
             </div>
         </div>

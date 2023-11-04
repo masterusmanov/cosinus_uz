@@ -1,5 +1,6 @@
 {
     "translation": {
+      "language": "Til",
       "navbar": {
         "list": {
           "one": "Bosh sahifa",
@@ -123,7 +124,7 @@
         "portfolioTitle": "Portfolio",
         "portfolioWork": "Cosinus IT-konpaniyasi",
         "callTitle": "Bog‘lanish : ",
-        "certificate": "© 2023 Cosinus IT. Barcha huquqlar himoyalangan"
+        "certificate": "Cosinus IT. Barcha huquqlar himoyalangan"
       }
     }
   }

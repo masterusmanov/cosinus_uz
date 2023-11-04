@@ -27,5 +27,8 @@
 
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss" >
+  *{
+    scroll-behavior: smooth;
+  }
 </style>

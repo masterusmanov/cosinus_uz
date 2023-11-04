@@ -14,7 +14,7 @@
                         </h2>
                         <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
                             <div class="p-5 bg-[#16163A] rounded-lg">
-                                <p class="mb-2 text-white text-[20px] md:text-[24px] lg:text-[28px]">Veb-ilovalar MVP yaratishning eng yaxshi usuli hisoblanadi. Va buni qurish uchun bizning steklarimiz!</p>
+                                <p class="mb-2 text-white text-[20px] md:text-[24px] lg:text-[28px]">{{$t('translation.technology.frontend')}}</p>
                                 <div class="flex items-center gap-6 rounded-lg">
                                     <img src="../assets/images/frontend/html.png" alt="HTML" class="w-[27px] h-[27px] md:w-[48px] md:h-[48px] lg:w-[87px] lg:h-[87px]">
                                     <img src="../assets/images/frontend/css.png" alt="HTML" class="w-[27px] h-[27px] md:w-[48px] md:h-[48px] lg:w-[87px] lg:h-[87px]">
@@ -39,7 +39,7 @@
                         </h2>
                         <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
                             <div class="p-5 bg-[#16163A] rounded-lg">
-                                <p class="mb-2 text-white text-[20px] md:text-[24px] lg:text-[28px]">Loyiha tezligini kuchaytirish, xavfsizligini taʼminlash va funksionalligini oshirish uchun quyidagi dasturlash tillaridan foydalanamiz</p>
+                                <p class="mb-2 text-white text-[20px] md:text-[24px] lg:text-[28px]">{{$t('translation.technology.backend')}}</p>
                                 <div class="flex items-center gap-6">
                                     <img src="../assets/images/backend/58480979cef1014c0b5e4901.png" alt="HTML" class="w-[27px] h-[27px] md:w-[48px] md:h-[48px] lg:w-[87px] lg:h-[87px]">
                                     <img src="../assets/images/backend/Python-logo-notext.svg.png" alt="HTML" class="w-[27px] h-[27px] md:w-[48px] md:h-[48px] lg:w-[87px] lg:h-[87px]">
@@ -63,7 +63,7 @@
                         </h2>
                         <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
                             <div class="p-5 bg-[#16163A] rounded-lg">
-                                <p class="mb-2 text-white text-[20px] md:text-[24px] lg:text-[28px]">Sayt va ilovalaringiz interfeysi uchun ajoyib ko'rinishdagi dizaynlarni taqdim etamiz!</p>
+                                <p class="mb-2 text-white text-[20px] md:text-[24px] lg:text-[28px]">{{$t('translation.technology.design')}}</p>
                                 <div class="flex items-center gap-6">
                                     <img src="../assets/images/ux_ui/figma.png" alt="HTML" class="w-[27px] h-[27px] md:w-[48px] md:h-[48px] lg:w-[87px] lg:h-[87px]">
                                     <img src="../assets/images/ux_ui/ai.png" alt="HTML" class="w-[27px] h-[27px] md:w-[48px] md:h-[48px] lg:w-[87px] lg:h-[87px]">
@@ -86,7 +86,7 @@
                         </h2>
                         <div id="accordion-color-body-4" class="hidden" aria-labelledby="accordion-color-heading-4">
                             <div class="p-5 bg-[#16163A] rounded-lg">
-                                <p class="mb-2 text-white text-[20px] md:text-[24px] lg:text-[28px]">Mobil ilovalarni yaratishda Google va Apple tomonidan yaratilgan eng yaxshi texnologiyalardan foydalanamiz!</p>
+                                <p class="mb-2 text-white text-[20px] md:text-[24px] lg:text-[28px]">{{$t('translation.technology.mobile')}}</p>
                                 <div class="flex items-center gap-6">
                                     <img src="../assets/images/mobile/flutter.png" alt="HTML" class="w-[27px] h-[27px] md:w-[48px] md:h-[48px] lg:w-[87px] lg:h-[87px]">
                                     <img src="../assets/images/mobile/firebase.png" alt="HTML" class="w-[27px] h-[27px] md:w-[48px] md:h-[48px] lg:w-[87px] lg:h-[87px]">

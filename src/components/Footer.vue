@@ -20,13 +20,14 @@
         </div>
         <div class="flex justify-center items-center mx-[20px] gap-[250px] lg:gap-[800px] 2xl:gap-[1000px] md:py-3">
             <img src="../assets/images/Cosinus.svg" alt="companyLogo" class="hidden md:block w-[80px]">
-            <h3 class="text-white my-3 text-[12px] md:text-[16px] text-center">© {{new Date().getFullYear()}} Cosinus IT. Barcha huquqlar himoyalangan</h3>
+            <h3 class="text-white my-3 text-[12px] md:text-[16px] text-center">© {{new Date().getFullYear()}} {{$t('translation.footer.certificate')}}</h3>
         </div>
     </section>
 </template>
 
 <script setup>
-
+    import { useI18n } from 'vue-i18n';
+    const {t} = useI18n({useScope: 'global'})
 </script>
 
 <style lang="scss" scoped>
