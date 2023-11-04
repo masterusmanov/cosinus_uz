@@ -1,5 +1,5 @@
 <template>
-    <header class="headers sticky top-0 z-50 bg-[#04042F] border-b-2 border-[#1F1BC6] shadow-sm shadow-[#1F1BC6] ">
+    <header class="headers sticky top-0 z-50 bg-[#04042F] border-b-2 border-[#8F8DED] shadow-sm shadow-[#8F8DED]"> 
         <div class="container mx-auto">
             <div class="flex justify-between items-center p-5 gpa-6 md:hidden">
                 <div>
