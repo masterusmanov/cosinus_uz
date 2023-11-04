@@ -5,15 +5,6 @@
                 <div>
                     <img src="../assets/images/Frame 180.svg" alt="cosinus_logo" class=" w-[38px] h-[48px] ">
                 </div>
-                <div class="flex gap-4 items-center">
-                    <div class="h-[40px] bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
-                    <select id="countries" @change="changeLanguage" class="h-[36px] bg-[#16163A] text-white rounded-lg text-[10px]">
-                        <option class="hidden" value="til" :selected="selectedLanguage === 'uz'">{{$t('translation.language')}}</option>
-                        <option value="uz">Uzb</option>
-                        <option value="ru">Rus</option>
-                        <option value="en">Eng</option>
-                      </select>
-                </div>
                 <div>
                     <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="font-medium text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button"><i class='bx bx-menu text-[20px] p-2 bg-[#3F4CCF] rounded-lg text-white'></i></button>
                     <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
@@ -30,9 +21,16 @@
                           <li>
                             <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Telegram bot</a>
                           </li>
+                          <li>
+                            <select id="countries" @change="changeLanguage" class="h-[36px] text-[14px] ml-2 border-none outline-none">
+                                <option class="hidden" value="til" :selected="selectedLanguage === 'uz'">{{$t('translation.language')}}</option>
+                                <option value="uz">O'zb</option>
+                                <option value="ru">Рус</option>
+                                <option value="en">Eng</option>
+                              </select>
+                          </li>
                         </ul>
                     </div>
-                </div>
                 </div>
             </div>
             <div class="hidden md:flex lg:hidden justify-between items-center p-5">
@@ -64,8 +62,8 @@
                     <div class="h-[48px] bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
                         <select id="countries" @change="changeLanguage" class="h-[44px] bg-[#16163A] text-white rounded-lg">
                             <option class="hidden" value="til" :selected="selectedLanguage === 'uz'">{{$t('translation.language')}}</option>
-                            <option value="uz">Uzb</option>
-                            <option value="ru">Rus</option>
+                            <option value="uz">O'zb</option>
+                            <option value="ru">Рус</option>
                             <option value="en">Eng</option>
                           </select>
                     </div>
@@ -88,8 +86,8 @@
                     <div class="h-[48px] flex items-center bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
                         <select id="countries" @change="changeLanguage" class="h-[47px] bg-[#16163A] text-white rounded-lg">
                             <option class="hidden" value="til" :selected="selectedLanguage === 'uz'">{{$t('translation.language')}}</option>
-                            <option value="uz">Uzb</option>
-                            <option value="ru">Rus</option>
+                            <option value="uz">O'zb</option>
+                            <option value="ru">Рус</option>
                             <option value="en">Eng</option>
                           </select>
                     </div>
