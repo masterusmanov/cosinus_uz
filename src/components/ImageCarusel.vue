@@ -18,14 +18,14 @@
     :autoplay="{ delay: 2000 }"
   >
     <swiper-slide>
-      <img src="../assets/images/employee_png/Shoxrux aka.png"/>
+      <img src="../assets/images/employee_pngs/Shoxrux aka.png"/>
       <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
         <h3 class="text-[18px] font-[700]">Shoxruh Egamov</h3>
         <p class="text-[14px]">CEO</p>
       </div>
     </swiper-slide>
     <swiper-slide>
-      <img src="../assets/images/employee_png/Jamshid.png" />
+      <img src="../assets/images/employee_pngs/Jamshid.png" />
       <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
         <h3 class="text-[18px] font-[700]">Jamshid Bahromov</h3>
         <p class="text-[14px]">Software Engineer</p>
@@ -33,42 +33,42 @@
     </swiper-slide>
       
     <swiper-slide>
-      <img src="../assets/images/employee_png/Elbek.png" />
+      <img src="../assets/images/employee_pngs/Elbek.png" />
       <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
         <h3 class="text-[18px] font-[700]">Elbek Suyunov</h3>
         <p class="text-[14px]">Designer</p>
       </div>
     </swiper-slide>
     <swiper-slide>
-      <img src="../assets/images/employee_png/Muzaffar.png" />
+      <img src="../assets/images/employee_pngs/Muzaffar.png" />
       <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
         <h3 class="text-[16px] font-[700]">Muzaffar Saidaxmedov</h3>
         <p class="text-[14px]">Software Engineer</p>
       </div>
     </swiper-slide>
     <swiper-slide>
-      <img src="../assets/images/employee_png/Zamon.png" />
+      <img src="../assets/images/employee_pngs/Zamon.png" />
       <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
         <h3 class="text-[18px] font-[700]">Zamon Qahorov</h3>
         <p class="text-[14px]">Software Engineer</p>
       </div>
     </swiper-slide>
     <swiper-slide>
-      <img src="../assets/images/employee_png/Elyor aka.png" />
+      <img src="../assets/images/employee_pngs/Elyor aka.png" />
       <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
         <h3 class="text-[18px] font-[700]">Elyor Usmanov</h3>
         <p class="text-[14px]">Software Engineer</p>
       </div>
     </swiper-slide>
     <swiper-slide>
-      <img src="../assets/images/employee_png/Jasur.png"/>
+      <img src="../assets/images/employee_pngs/Jasur.png"/>
       <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
         <h3 class="text-[18px] font-[700]">Jasur Raimov</h3>
         <p class="text-[14px]">Software Engineer</p>
       </div>
     </swiper-slide>
     <swiper-slide>
-      <img src="../assets/images/employee_png/Laziz.png"/>
+      <img src="../assets/images/employee_pngs/Laziz.png"/>
       <div class="text-white rounded-b-[15px] bg-[#343FA7] p-2">
         <h3 class="text-[18px] font-[700]">Laziz Xojiboyev</h3>
         <p class="text-[14px]">Kontent maker</p>
