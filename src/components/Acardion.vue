@@ -1,11 +1,11 @@
 <template>
     <section>
         <div class="container mx-auto">
-            <div id="accordion-color text-white" data-accordion="collapse" data-active-classes="text-white">
+            <div id="accordion-color" data-accordion="collapse" data-active-classes="text-white">
                 <div class="bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg mt-5 md:mt-10">
                     <div class="rounded-lg bg-[#16163A]">
                         <h2 id="accordion-color-heading-1" class="">
-                            <button type="button" class="flex items-center justify-between w-full p-5  text-[20px] md:text-[32px] lg:text-[40px] font-medium text-white text-left" data-accordion-target="#accordion-color-body-1" aria-expanded="false" aria-controls="accordion-color-body-1">
+                            <button type="button" class="flex items-center justify-between w-full p-5 text-[20px] md:text-[32px] lg:text-[40px] font-medium text-white text-left" data-accordion-target="#accordion-color-body-1" aria-expanded="false" aria-controls="accordion-color-body-1">
                                 <span>Frontend</span>
                                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>

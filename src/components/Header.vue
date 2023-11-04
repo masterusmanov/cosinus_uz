@@ -10,7 +10,7 @@
                     <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                         <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
                           <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Bosh sahifa</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.one')}}</a>
                           </li>
                           <li>
                             <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Portfolio</a>
@@ -30,7 +30,7 @@
                     <div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                         <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
                         <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Bosh sahifa</a>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{$t('translation.navbar.list.one')}}</a>
                         </li>
                         <li>
                             <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Portfolio</a>
@@ -46,10 +46,10 @@
                 </div>
                 <div class="w-1/3 flex justify-end items-center ">
                     <div class="h-[48px] bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
-                        <select id="countries" class="h-[44px] bg-[#16163A] text-white rounded-lg">
-                            <option value="UZB">Uzb</option>
-                            <option value="RUS">Rus</option>
-                            <option value="ENG">Eng</option>
+                        <select id="countries" @change="changeLanguage" class="h-[44px] bg-[#16163A] text-white rounded-lg">
+                            <option value="uz">Uzb</option>
+                            <option value="ru">Rus</option>
+                            <option value="en">Eng</option>
                           </select>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                 <div class="flex justify-center items-center gap-6">
                     <img src="../assets/images/Cosinus.svg" alt="" class="w-[94px] h-[48px]">
                     <div class="text-white flex justify-center items-center gap-10 ml-[64px]">
-                        <a href="#">Bosh sahifa</a>
+                        <a href="#">{{$t('translation.navbar.list.one')}}</a>
                         <a href="#">Portfolio</a>
                         <div class="flex items-center">
                             <a href="#">Cosinus academy</a>
@@ -68,10 +68,10 @@
                 </div>
                 <div class=" flex justify-end items-center gap-10">
                     <div class="h-[48px] flex items-center bg-gradient-to-r from-[#34BCA2] to-[#1A16E9] p-0.5 rounded-lg">
-                        <select id="countries" class="h-[47px] bg-[#16163A] text-white rounded-lg">
-                            <option value="UZB">Uzb</option>
-                            <option value="RUS">Rus</option>
-                            <option value="ENG">Eng</option>
+                        <select id="countries" @change="changeLanguage" class="h-[47px] bg-[#16163A] text-white rounded-lg">
+                            <option value="uz" :selected="selectedLanguage === 'uz'">Uzb</option>
+                            <option value="ru" :selected="selectedLanguage === 'ru'">Rus</option>
+                            <option value="en" :selected="selectedLanguage === 'en'">Eng</option>
                           </select>
                     </div>
                       <button class="language w-[130px] h-[48px] bg-[#343FA7] text-white hover:bg-[#1913EA] px-2 py-1 rounded-lg">Bog'lanish</button>
@@ -85,10 +85,19 @@
     import { onMounted } from 'vue'
     import { initDropdowns } from 'flowbite'
 
+    import { useI18n } from 'vue-i18n';
+    const {t} = useI18n({useScope: 'global'})
+
+    
     // initialize components based on data attribute selectors
     onMounted(() => {
         initDropdowns();
     })
+    function changeLanguage(event) {
+        const selectedLanguage = event.target.value;
+        console.log(selectedLanguage);
+        localStorage.setItem("lang", selectedLanguage)
+    }
 </script>
 
 <style lang="scss" scoped>
