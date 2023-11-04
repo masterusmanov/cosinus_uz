@@ -1,6 +1,6 @@
 <template>
-    <section class="flex">
-        <div id="home" class="container mx-auto grid justify-center items-center lg:flex gap-6 lg:gap-[30px] mt-[16px] md:mt-[24px] lg:mt-[32px]">
+    <section id="home">
+        <div  class="container mx-auto grid justify-center items-center lg:flex gap-6 lg:gap-[30px] mt-[16px] md:mt-[24px] lg:mt-[32px]">
             <div class="text-white m-[20px] p-2">
                 <img src="../../assets/images/Group.png" alt="logotip" class="w-[149px] h-[30px] md:w-[219px] md:h-[40px] lg:w-[282px] lg:h-[52px]">
                 <h1 class="text-[24px] md:text-[40px] lg:text-[48px] font-[700] font-Roboto">{{ $t('translation.mainTop.title') }}</h1>
