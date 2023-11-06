@@ -1,5 +1,5 @@
 <template>
-<div class="container mx-auto">
+<div class="container">
   <div class="faders">
     <div class="left"></div>
     <div class="right"></div>
@@ -74,7 +74,7 @@ h1 {
 
 .container {
   width: 100%;
-  overflow: hidden;
+ 
   position: relative;
 }
 
