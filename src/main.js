@@ -14,7 +14,7 @@ const messages = Object.assign(languages)
 const i18n = createI18n({
    legacy: false,
    locale: localStoragLang || defaultLocale,
-   fallbackLocale: 'uz',
+   fallbackLocale: 'en',
    messages,
 })
 const app = createApp(App);
